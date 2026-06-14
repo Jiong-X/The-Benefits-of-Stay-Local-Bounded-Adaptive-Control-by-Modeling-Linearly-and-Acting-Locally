@@ -7,11 +7,14 @@ We present a novel experiment and perspective on human adaptive control. In our 
 zero, one or two variables with the goal of controlling a third variable, targeting a moving reward region. Across tasks, we
 vary the function that maps the control variables to the target variable, and use computational modeling to examine how
 participants represent and solve the tasks. While broadly successful, we find evidence suggesting that participants fall back
-on projecting a locally linear monotonic relationships, while also taking control actions that are conservative, preferring to
+on projecting a locally linear monotonic relationship, while also taking control actions that are conservative, preferring to
 adjust one variable rather than both relative to their previous action. We suggest that this allows for robust performance even
 when interacting with nonlinear non-monotonic functions.
 
 # Demon Trajectory
+Each heatmap corresponds to the action space for a certain generative function. The regions highlighted in yellow are actions that 
+produce rewarding actions at the given timestep. The locations of arrowheads represent the actions selected by the participant at 
+the given timestep.
 <table>
   <tr>
     <td><img src="./assets/linearsum.gif" width="250">
